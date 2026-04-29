@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Jibil Joseph, Software Engineer specializing in Java, Spring Boot, React, and ML.">
+    <title>Jibil Joseph | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&family=Space+Mono&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="blob-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">JJ<span>.</span></div>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero hidden">
+            <div class="hero-content">
+                <p class="greeting">Hi, I'm</p>
+                <h1 class="glitch" data-text="Jibil Joseph">Jibil Joseph</h1>
+                <h2 class="role">Software Engineer <span class="accent">&</span> ML Enthusiast</h2>
+                <p class="summary">
+                    Building robust, scalable microservices and integrating AI solutions. Passionate about creating seamless user experiences.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:Jibiljoseph2003@gmail.com" class="btn btn-primary">
+                        <i data-lucide="mail"></i> Get in touch
+                    </a>
+                    <a href="https://linkedin.com/in/jibil-joseph" target="_blank" rel="noopener noreferrer" class="btn btn-icon">
+                        <i data-lucide="linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Jibil12" target="_blank" rel="noopener noreferrer" class="btn btn-icon">
+                        <i data-lucide="github"></i>
+                    </a>
+                    <a href="tel:+919037940724" class="btn btn-icon">
+                        <i data-lucide="phone"></i>
+                    </a>
+                </div>
+                <div class="location">
+                    <i data-lucide="map-pin"></i> Kerala, India
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Jibil Joseph'</span>,
+  <span class="property">role</span>: <span class="string">'Software Engineer'</span>,
+  <span class="property">skills</span>: [<span class="string">'Java'</span>, <span class="string">'Spring Boot'</span>, <span class="string">'React'</span>],
+  <span class="property">isCoding</span>: <span class="keyword">true</span>,
+  <span class="property">coffee</span>: <span class="number">Infinity</span>
+};</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section hidden">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Software Engineer</h3>
+                                <p class="company">Litmus7 Systems Consulting</p>
+                            </div>
+                            <span class="date">Sep 2025 – Present</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Developed Java Spring Boot microservices for a retail e-commerce platform.</li>
+                            <li>Integrated Shopify webhooks utilizing HMAC-SHA256 and DynamoDB (AWS SDK v2).</li>
+                            <li>Built GraphQL APIs with Spring Boot 3.x using @QueryMapping and Spring Data JPA.</li>
+                            <li>Integrated Spring AI with Google Gemini, including a React-based chat UI.</li>
+                            <li>Engineered an FTP-based inventory pipeline handling R-PAC/RFID, Stock On Hand, and Cycle Count.</li>
+                            <li>Managed AWS cloud infrastructure components including S3, DynamoDB, and REST APIs.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>ML Intern</h3>
+                                <p class="company">Corizo EdTech</p>
+                            </div>
+                            <span class="date">2023 · 2 Months</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Implemented supervised learning models including Linear Regression and Classification using scikit-learn.</li>
+                            <li>Performed comprehensive data preprocessing and model building in Python.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Subject Matter Expert</h3>
+                                <p class="company">Chegg India</p>
+                            </div>
+                            <span class="date">2023 · 2 Months</span>
+                        </div>
+                        <ul class="achievements">
+                            <li>Solved complex CS queries encompassing DSA, OOP, DBMS, and Networking.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section hidden">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid-projects">
+                
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i data-lucide="activity" class="project-icon"></i>
+                            <div class="project-links">
+                                <span class="badge">Major Project</span>
+                            </div>
+                        </div>
+                        <h3>ECG Analyzer</h3>
+                        <p class="duration">6 Months · Team of 5</p>
+                        <ul class="project-details">
+                            <li>Built an Arduino ECG device for real-time biosensor data collection.</li>
+                            <li>Developed an ML model for health status classification from ECG readings.</li>
+                            <li>Created an AI doctor chat interface and a hospital ECG report upload portal.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>Python</span><span>ML</span><span>Arduino</span><span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card glass-card">
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i data-lucide="users" class="project-icon"></i>
+                            <div class="project-links">
+                                <span class="badge">Minor Project</span>
+                            </div>
+                        </div>
+                        <h3>Lab Management System</h3>
+                        <p class="duration">3 Months · Team of 4</p>
+                        <ul class="project-details">
+                            <li>Developed attendance, viva marks & performance tracking tools for teachers.</li>
+                            <li>Built a comprehensive student portal featuring a real-time chat system.</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span>React</span><span>Django</span><span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section hidden">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid-skills">
+                
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="code-2"></i> Languages</h3>
+                    <div class="skill-tags">
+                        <span>Java</span><span>Python</span><span>JavaScript</span><span>C</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="layers"></i> Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Spring Boot</span><span>Spring AI</span><span>Spring Data JPA</span><span>React</span><span>Django</span><span>Micronaut</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="cloud"></i> Cloud & DB</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span><span>DynamoDB</span><span>S3</span><span>MySQL</span><span>SQLite</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="cpu"></i> AI & LLM</h3>
+                    <div class="skill-tags">
+                        <span>Spring AI</span><span>Google Gemini</span><span>LangChain4j</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="link"></i> Integrations</h3>
+                    <div class="skill-tags">
+                        <span>Shopify</span><span>GraphQL</span><span>REST APIs</span><span>FTP Pipelines</span><span>RFID/R-PAC</span>
+                    </div>
+                </div>
+
+                <div class="skill-category glass-card">
+                    <h3><i data-lucide="wrench"></i> Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span><span>UiPath RPA</span><span>Node.js</span><span>Postman</span><span>Linux</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section hidden">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="grid-edu">
+                <div class="edu-column">
+                    <div class="timeline">
+                        <div class="timeline-item glass-card">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3>B.Tech — Computer Science & Engineering</h3>
+                                        <p class="company">College of Engineering Kalloopara, KTU</p>
+                                    </div>
+                                    <span class="date">2021 – Present</span>
+                                </div>
+                                <p class="grade">CGPA: <span class="accent">8.01 / 10</span></p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item glass-card">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3>Class 12 — Science</h3>
+                                        <p class="company">St. Aloysius HSS Edathua · Kerala Board</p>
+                                    </div>
+                                    <span class="date">2021</span>
+                                </div>
+                                <p class="grade">Percentage: <span class="accent">97.9%</span></p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item glass-card">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <div>
+                                        <h3>Class 10</h3>
+                                        <p class="company">St. Aloysius HSS Edathua · Kerala Board</p>
+                                    </div>
+                                    <span class="date">2019</span>
+                                </div>
+                                <p class="grade">Percentage: <span class="accent">100%</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cert-column glass-card">
+                    <h3><i data-lucide="award"></i> Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Python Basics & Projects Certificate</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>React & JavaScript Bootcamp Certificate</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>CCNA Labs Certificate — David Bombal (Cisco Packet Tracer)</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Jibil Joseph. Built with pure code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
